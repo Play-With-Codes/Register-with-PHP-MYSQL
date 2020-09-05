@@ -1,0 +1,40 @@
+body
+{
+	background: #eee;
+}
+
+.form
+{
+	border: 1px solid #eee;
+	position: fixed;
+	top: 40%; left: 50%;
+	transform: translate(-50%, -50%);
+	justify-content: center;
+	text-align: center;
+	padding: 40px;
+	width: 40%;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.35);
+}
+
+.form input
+{
+	height: 25px;
+	width: 70%;	
+	padding: 10px;
+	border: 1px solid #ddd;
+	outline: none;
+	border-radius: 5px;
+}
+
+.form button
+{
+	width: 70%;	
+	padding: 10px;
+	outline: none;
+	background: #4169E1;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
